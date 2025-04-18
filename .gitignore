@@ -1,0 +1,13 @@
+# Rust
+/target
+**/*.rs.bk
+
+# PlatformIO
+firmware/.pio
+firmware/.vscode
+firmware/.clangd
+
+# Common
+.DS_Store
+*.log
+.env

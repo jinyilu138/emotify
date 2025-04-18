@@ -1,0 +1,5 @@
+{
+    "platformio.projectDir": "${workspaceFolder}/firmware",
+    "rust-analyzer.cargo.workspaceRoot": "${workspaceFolder}/backend"
+  }
+  
