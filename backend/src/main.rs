@@ -95,6 +95,7 @@ async fn emotion_handler(req_body: String, data: web::Data<AppState>) -> impl Re
             eprintln!("Playback error: {:?}", e);
         }
     }
+    return HttpResponse::Ok().body("playing .");
 }
 
 #[actix_web::main]
